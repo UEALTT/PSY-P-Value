@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<presentation title="P-Value Tutorial" width="720.0000000" height="540.0000000" thmbWidth="0.0000000" thmbHeight="0.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2016" type="compound" hasExternalAudio="0" uid="{30984FAE-B50C-44EE-8300-E2FC13E90268}">
+	<presenters/>
+	<company logoAssetId="imgAsset0" webSite="" webSiteTarget="_blank"/>
+	<references/>
+	<soundAssets/>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="logo.swf" embedded="0"/>
+	</graphicAssets>
+	<playlists/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<currentTemplate pureCustom="true"/>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FAFAFA</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FAFAFA</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>false</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>false</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>false</visible>
+					<enabled>false</enabled>
+					<showLabels>false</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>false</visible>
+				<buttons>
+					<button type="attachments" visible="false"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="false"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>false</thumbnails>
+				<search>false</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>true</showAtLeft>
+				<showLogo>true</showLogo>
+				<showPresenterInfo>false</showPresenterInfo>
+				<showPresenterVideo>false</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>false</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" syncWithVideoNarration="1" enableVideoControl="1" resumePresentationPlayback="prompt"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="What does a p-value tell us?" titleNormalized="what does a p-value tell us?" src="slide1.swf" size="29783" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>What does a p-value tell us?
+Research Design and Analysis I
+PSY-4001Y
+p &lt; 0.05</text>
+		</slide>
+		<slide index="1" title="How to navigate" titleNormalized="how to navigate" src="slide2.swf" size="3028" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Outline
+The section will expand and reveal the tutorial content as you progress through it. If you exit the tutorial part way through, you can jump back to where you were by clicking on a heading in the outline.
+How to navigate
+Welcome to this tutorial. 
+If you are unfamiliar with eLearning tutorials such as this, please briefly familiarise yourself with the navigation controls. 
+
+ Enlarge
+This button increases the window to fill your screen.
+ Buttons
+Use these buttons to move to the next slide or go back to the previous slide.
+NEXT
+PREV</text>
+		</slide>
+		<slide index="2" title="Aim of the tutorial and learning outcomes" titleNormalized="aim of the tutorial and learning outcomes" src="slide3.swf" size="15805" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Aim of the tutorial and learning outcomes
+When conducting null hypothesis significance testing (NHST), statistical tests provide us with a p-value. 
+This tutorial will help explain what the p-value represents and how to interpret it.
+You should allow about 30 minutes to work through the tutorial.
+
+After completing this tutorial you should be able to:
+Understand the correct definition of a p-value
+Interpret a p-value in relation to a null hypothesis
+Interpret p-values of studies reported in academic journals</text>
+		</slide>
+		<slide index="3" title="Prerequisites" titleNormalized="prerequisites" src="slide4.swf" size="1431" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Prerequisites
+Before starting this tutorial, you should already be familiar with:
+
+Why we run experiments in Psychology.
+
+The difference between a null hypothesis and an experimental hypothesis.
+
+</text>
+		</slide>
+		<quiz index="4" title="Check your knowledge" titleNormalized="check your knowledge" src="quiz1.swf" size="1086088" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" thumbnailAssetId="" embedded="0">
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<quizBranching allowQuizInterruption="1" restartFailedQuiz="0" allowViewNextSlides="atAnyTime">
+				<finishAction>
+					<passed>
+						<gotoNextSlide/>
+					</passed>
+					<failed>
+						<gotoNextSlide/>
+					</failed>
+				</finishAction>
+			</quizBranching>
+		</quiz>
+		<slide index="5" title="The fairness of an ancient coin" titleNormalized="the fairness of an ancient coin" src="slide6.swf" size="2324" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>The fairness of an ancient coin
+Let’s start with an example. Suppose we found an ancient coin that had been buried underground. 
+If we were to flip it, we might expect the likelihood of it landing heads to be the same as the likelihood of it landing tails. 
+In other words, a 50% chance of it landing heads and a 50% chance of it landing tails. 
+However, perhaps when ancient coins were made, they were not manufactured very consistently and sometimes were heavier on one side such that they tended to land on heads.
+We might then hypothesise that there is not an equal likelihood of it landing heads as there is of it landing tails – perhaps the coin is biased?
+Heads
+Tails</text>
+		</slide>
+		<slide index="6" title="Is the coin biased?" titleNormalized="is the coin biased?" src="slide7.swf" size="2438" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Is the coin biased?
+To test this question, we can set-up our null hypothesis and our experimental hypothesis:
+
+Null hypothesis (H0):
+‘the coin is a fair coin – there is an equal chance of getting a heads as getting a tails’
+
+Experimental hypothesis (H1):
+‘the coin is a biased coin – there is a greater chance of getting a heads than getting a tails’
+the null hypothesis is a default position, and often quite boring or unsurprising!
+the experimental hypothesis proposes something other than the default boring position!
+Heads
+Tails</text>
+		</slide>
+		<slide index="7" title="The first flip of the coin" titleNormalized="the first flip of the coin" src="slide8.swf" size="2341" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+To test whether the coin is indeed a fair coin, we can collect some data by flipping the coin and seeing which side lands face-up…
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails</text>
+		</slide>
+		<slide index="8" title="The first flip of the coin 2" titleNormalized="the first flip of the coin 2" src="slide9.swf" size="2975" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+To test whether the coin is indeed a fair coin, we can collect some data by flipping the coin and seeing which side lands face-up…
+The coin landed on a heads.
+Heads
+?
+If the null hypothesis is true, what do you think is the probability of it landing heads on the first flip?
+
+(try to work this out before continuing)
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails</text>
+		</slide>
+		<slide index="9" title="The first flip of the coin 3" titleNormalized="the first flip of the coin 3" src="slide10.swf" size="3002" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+To test whether the coin is indeed a fair coin, we can collect some data by flipping the coin and seeing which side lands face-up…
+The coin landed on a heads.
+
+?
+The answer is: 0.50
+(i.e. 50%, or a 1 in 2 chance)
+
+This is our p-value, so p = 0.50</text>
+		</slide>
+		<slide index="10" title="The second flip of the coin" titleNormalized="the second flip of the coin" src="slide11.swf" size="2605" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets collect some more data by flipping the coin again…
+Second flip:
+First flip:
+Heads
+?
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails</text>
+		</slide>
+		<slide index="11" title="The second flip of the coin 2" titleNormalized="the second flip of the coin 2" src="slide12.swf" size="3068" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets collect some more data by flipping the coin again…
+The coin landed on a heads again.
+
+
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+?
+If the null hypothesis is true, what do you think is the probability of it landing heads on the first flip and heads on the second flip?
+
+(try to work this out before continuing)</text>
+		</slide>
+		<slide index="12" title="The second flip of the coin 3" titleNormalized="the second flip of the coin 3" src="slide13.swf" size="3080" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets collect some more data by flipping the coin again…
+The coin landed on a heads again.
+
+
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+?
+The answer is: 0.25
+(i.e. 25%, or a 1 in 4 chance)
+
+This is our p-value, so p = 0.25</text>
+		</slide>
+		<slide index="13" title="The third flip of the coin" titleNormalized="the third flip of the coin" src="slide14.swf" size="2659" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets flip the coin again…
+Third flip:
+Second flip:
+Heads
+First flip:
+Heads
+?
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails</text>
+		</slide>
+		<slide index="14" title="The third flip of the coin 2" titleNormalized="the third flip of the coin 2" src="slide15.swf" size="3172" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets flip the coin again…
+The coin landed on a heads yet again!
+Third flip:
+Heads
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+?
+If the null hypothesis is true, what do you think is the probability of it landing heads on the first, second and third flip?
+
+(try to work this out before continuing)</text>
+		</slide>
+		<slide index="15" title="The third flip of the coin 3" titleNormalized="the third flip of the coin 3" src="slide16.swf" size="3140" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets flip the coin again…
+The coin landed on a heads yet again!
+
+
+Third flip:
+Heads
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+?
+The answer is: 0.125
+(i.e. 12.5%, or a 1 in 8 chance)
+
+This is our p-value, so p = 0.125</text>
+		</slide>
+		<slide index="16" title="The fourth flip of the coin" titleNormalized="the fourth flip of the coin" src="slide17.swf" size="2769" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets flip the coin for a fourth time…
+
+Third flip:
+Heads
+Fourth flip:
+Second flip:
+Heads
+First flip:
+Heads
+?
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails</text>
+		</slide>
+		<slide index="17" title="The fourth flip of the coin 2" titleNormalized="the fourth flip of the coin 2" src="slide18.swf" size="3401" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets flip the coin again…
+The coin landed on a heads yet again! 
+By now you might think that there is something odd about this coin. 
+
+
+Third flip:
+Heads
+Fourth flip:
+Heads
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+?
+If the null hypothesis is true, what do you think is the probability of it landing heads on the first, second, third and fourth flip?
+
+(try to work this out before continuing)</text>
+		</slide>
+		<slide index="18" title="The fourth flip of the coin 3" titleNormalized="the fourth flip of the coin 3" src="slide19.swf" size="3410" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+Ok, lets flip the coin again…
+The coin landed on a heads yet again! 
+By now you might think that there is something odd about this coin. 
+Third flip:
+Heads
+Fourth flip:
+Heads
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+The answer is: 0.0625
+(i.e. 6.25%, or a 1 in 16 chance)
+
+This is our p-value, so p = 0.0625
+(or 0.063 rounded to three decimal places)
+?</text>
+		</slide>
+		<slide index="19" title="The fifth flip of the coin" titleNormalized="the fifth flip of the coin" src="slide20.swf" size="2895" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+And just to check, lets flip the coin one last time…
+
+
+Third flip:
+Heads
+Fourth flip:
+Heads
+Fifth flip:
+Second flip:
+Heads
+First flip:
+Heads
+?
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails</text>
+		</slide>
+		<slide index="20" title="The fifth flip of the coin 2" titleNormalized="the fifth flip of the coin 2" src="slide21.swf" size="3476" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+And just to check, lets flip the coin one last time…
+Perhaps now unsurprisingly, the coin landed on a heads again.
+
+Third flip:
+Heads
+Fourth flip:
+Heads
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+?
+If the null hypothesis is true, what do you think is the probability of it landing heads on the first, second, third fourth and fifth flip?
+
+(try to work this out before continuing)
+Fifth flip:
+Heads</text>
+		</slide>
+		<slide index="21" title="The fifth flip of the coin 3" titleNormalized="the fifth flip of the coin 3" src="slide22.swf" size="3480" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Let’s collect some data
+And just to check, lets flip the coin one last time…
+Perhaps now unsurprisingly, the coin landed on a heads again.
+
+Third flip:
+Heads
+Fourth flip:
+Heads
+Second flip:
+Heads
+First flip:
+Heads
+Reminder of the question and hypotheses:
+Question: Is the coin a biased coin?
+H0: the coin is a fair coin – there is an equal chance of getting a heads as getting a tails
+H1: the coin is a biased coin – there is a greater chance of getting a heads than getting a tails
+The answer is: 0.03125
+(i.e. 3.125%, or a 1 in 32 chance)
+
+This is our p-value, so p = 0.03125
+(or 0.031 rounded to three decimal places)
+Fifth flip:
+Heads
+?</text>
+		</slide>
+		<slide index="22" title="Re-visiting the hypotheses" titleNormalized="re-visiting the hypotheses" src="slide23.swf" size="2102" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Re-visiting the hypotheses
+You are probably now very suspicious that the coin is a fair coin!
+If the null hypothesis is true, i.e. if the coin is indeed fair, we would expect to get a heads on five flips of the coin only 1 in every 32 times we repeat the task. 
+This seems fairly unlikely. The coin could be a fair coin, but if it is, it would be quite unlikely to get a heads five times in a row.
+Based on the data we’ve collected, it’s now looking that our experimental hypothesis (that the coin is biased to land on heads) is quite plausible, and our null hypothesis (that the coin is fair) is not very plausible.
+hypothesis testing always starts by assuming the null hypothesis is true</text>
+		</slide>
+		<slide index="23" title="So what is a p-value?" titleNormalized="so what is a p-value?" src="slide24.swf" size="3704" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>So what is a p-value?
+A p-value is…
+“the probability of observing the data we’ve collected, or data that is more extreme, if the null hypothesis is true.”
+
+What is meant by ‘data that is more extreme’?
+Well, lets say we started flipping the coin again, but this time we got four heads and one tails. The p-value would represent the probability of four heads out of five (i.e. the data collected) plus the probability of five heads and no tails (i.e. data that is more extreme than that observed).
+this is an important concept – take your time to understand the wording</text>
+		</slide>
+		<slide index="24" title="When do we reject the null?" titleNormalized="when do we reject the null?" src="slide25.swf" size="20018" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>When do we reject the null?
+If the p-value is quite small, then we can reject the null hypothesis in favour of the alternative hypothesis.
+But what does ‘quite small’ mean…?</text>
+		</slide>
+		<slide index="25" title="When do we reject the null? 2" titleNormalized="when do we reject the null? 2" src="slide26.swf" size="2232" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>When do we reject the null?
+In the field of psychology, researchers have agreed that if the observed data is only likely to happen by chance under the null hypothesis with a probability of 0.05 or less (i.e. 5% or 1 in 20 times, or less), then we have enough evidence to be suspicious of the null hypothesis. 
+The threshold at which we are suspicious of the null hypothesis is called ‘alpha’
+
+In psychology, alpha is set at 0.05
+So if p is less than 0.05, we reject the null hypothesis in favour of the experimental hypothesis.</text>
+		</slide>
+		<slide index="26" title="How do p-values relate to psychology studies?" titleNormalized="how do p-values relate to psychology studies?" src="slide27.swf" size="12352" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>How do p-values relate to psychology studies?
+Now let’s see how p-values relate to a question in psychology:
+Does the colour of our clothes influence our dominance in competitive situations?
+The next slide will load a short video clip from ‘Horizon: Do you see what I see?’
+After clicking ‘next’, you will be prompted to login to the Box of Broadcasts website using your usual UEA username and password and you can then stream the video clip.
+Return to the tutorial after watching the clip.
+?
+As you watch the video clip try to identify the null hypothesis and the experimental hypothesis.
+Clip from Horizon: Do you see what I see?, 00:00 08/08/2011, BBC2</text>
+		</slide>
+		<slide index="27" title="Video" titleNormalized="video" src="slide28.swf" size="2683" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Video
+Watched the video?
+Continue on with the tutorial.
+
+Did the video fail to load?
+A new window should have opened allowing you login with your UEA username and password to watch the video clip.
+If a window did not open and you are reading this, you can try accessing the video with this link: Clip 1 from Horizon: Do You See What I See?, 21:00 08/08/2011, BBC2.
+As you watch the video clip try to identify the null hypothesis and the experimental hypothesis.
+Return to the tutorial after watching the clip.
+
+
+
+</text>
+			<webObjects>
+				<webObject id="wo_27_0" timeOffset="0" showInNewWindow="1" width="720.0000000" height="540.0000000" fullScreen="1">
+					<url>https://login.learningonscreen.ac.uk/wayfless.php?entityID=https%3A%2F%2Flogin.uea.ac.uk%2Fentity&amp;target=https%3A%2F%2Flearningonscreen.ac.uk%2Fondemand%2Findex.php%2Fclip%2F93754</url>
+				</webObject>
+			</webObjects>
+		</slide>
+		<quiz index="28" title="Check your understanding" titleNormalized="check your understanding" src="quiz2.swf" size="1083818" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" thumbnailAssetId="" embedded="0">
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<quizBranching allowQuizInterruption="1" restartFailedQuiz="0" allowViewNextSlides="atAnyTime">
+				<finishAction>
+					<passed>
+						<gotoNextSlide/>
+					</passed>
+					<failed>
+						<gotoNextSlide/>
+					</failed>
+				</finishAction>
+			</quizBranching>
+		</quiz>
+		<slide index="29" title="How do p-values relate to psychology studies?" titleNormalized="how do p-values relate to psychology studies?" src="slide30.swf" size="7878" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>How do p-values relate to psychology studies?
+Now let’s take a look at the results of this study.
+The next slide will load another short video clip from ‘Horizon: Do you see what I see?’
+Return to the tutorial after watching the clip.
+Clip from Horizon: Do you see what I see?, 00:00 08/08/2011, BBC2</text>
+		</slide>
+		<slide index="30" title="Video" titleNormalized="video" src="slide31.swf" size="2478" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Video
+Watched the video?
+Continue on with the tutorial.
+
+Did the video fail to load?
+A new window should have opened allowing you login with your UEA username and password to watch the video clip.
+If a window did not open and you are reading this, you can try accessing the video with this link: Clip 2 from Horizon: Do You See What I See?, 21:00 08/08/2011, BBC2.
+
+
+</text>
+			<webObjects>
+				<webObject id="wo_30_0" timeOffset="0" showInNewWindow="1" width="720.0000000" height="540.0000000" fullScreen="1">
+					<url>https://login.learningonscreen.ac.uk/wayfless.php?entityID=https%3A%2F%2Flogin.uea.ac.uk%2Fentity&amp;target=https%3A%2F%2Flearningonscreen.ac.uk%2Fondemand%2Findex.php%2Fclip%2F93755</url>
+				</webObject>
+			</webObjects>
+		</slide>
+		<slide index="31" title="How do p-values relate to psychology studies?" titleNormalized="how do p-values relate to psychology studies?" src="slide32.swf" size="22370" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>How do p-values relate to psychology studies?
+The researchers found that out of 79 taekwondo contests…
+
+45 were won by red
+34 were won by blue
+45
+wins
+34
+wins
+?
+Do you think this evidence supports the experimental hypothesis?</text>
+		</slide>
+		<slide index="32" title="How do p-values relate to psychology studies? 2" titleNormalized="how do p-values relate to psychology studies? 2" src="slide33.swf" size="2484" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>How do p-values relate to psychology studies?
+The researchers also looked at the proportion of winners wearing red and blue in boxing and wrestling. 
+Across all the sports they found a consistent pattern that there were more red winners than blue winners.
+Using a statistical test to analyse the data the study’s authors calculated that their results had a p-value of: 
+p = 0.041 (or 4.1%)
+In other words, if the null hypothesis is true – that red does not influence dominance in competitive situation, the probability of observing the data collected (45 red wins to 34 blue wins) is 0.041, which is quite a low probability.
+You will learn about statistical tests and how to calculate
+p-values later on the course</text>
+		</slide>
+		<quiz index="33" title="Check your knowledge" titleNormalized="check your knowledge" src="quiz3.swf" size="1085781" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="1" thumbnailAssetId="" embedded="0">
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<quizBranching allowQuizInterruption="1" restartFailedQuiz="0" allowViewNextSlides="atAnyTime">
+				<finishAction>
+					<passed>
+						<gotoNextSlide/>
+					</passed>
+					<failed>
+						<gotoNextSlide/>
+					</failed>
+				</finishAction>
+			</quizBranching>
+		</quiz>
+		<slide index="34" title="Common misconceptions" titleNormalized="common misconceptions" src="slide35.swf" size="3587" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Common misconceptions
+The meaning of a p-value is sometimes misinterpreted.
+
+A p-value does not tell us:
+the probability that the null hypothesis is true.
+how important the research finding is.
+whether a scientific conclusion should be taken as a fact.
+
+ 
+a p-value less than 0.05 indicates statistical significance, but it does not tell us whether the finding is actually important or interesting.</text>
+		</slide>
+		<slide index="35" title="Key points" titleNormalized="key points" src="slide36.swf" size="1774" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Key points
+The definition of a p-value is:
+“the probability of observing the data we’ve collected, or data that is more extreme, if the null hypothesis is true.”
+
+If the p-value is less than 0.05 (5%), i.e. quite unlikely, then we reject the null hypothesis in favour of the experimental hypothesis.
+
+If the p-value is greater than 0.05 (5%) then we retain the null hypothesis.
+
+
+
+
+
+
+
+
+
+</text>
+		</slide>
+		<slide index="36" title="Feedback survey" titleNormalized="feedback survey" src="slide37.swf" size="35915" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Quiz
+Click the Quiz button to edit this object</text>
+		</slide>
+		<slide index="37" title="Tutorial completed" titleNormalized="tutorial completed" src="slide38.swf" size="9513" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Tutorial completed
+Well done – you’ve reached the end of the tutorial.
+
+You can run through the tutorial as many times as you like. For example, you might want to revisit the tutorial to help you with revision before practicals and/or exams.
+
+Close the window to exit and return to Blackboard
+
+Tutorial authored by:
+Jordan Harold
+Based on a format created by Jordan Harold, Thomas Elden and Jo Bruce.</text>
+		</slide>
+	</slides>
+</presentation>
